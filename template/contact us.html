@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.pk{
+    background-image: url("bg-pattern.jpg");
+            
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+
+.navbar ul {
+    list-style: none;
+    overflow: auto;
+    padding: 12px 0px;
+}
+
+.navbar ul li {
+    margin: 0px 15px;
+    float: left;
+    padding: 10px 4px;
+    font-size: 26px;
+    border: 1px solid none;
+    border-radius: 12px;
+    color: aliceblue;
+}
+.navbar ul li a {
+    /* margin: 0px 15px; */
+    float: left;
+    /* padding: 10px 4px; */
+    font-size: 26px;
+    border: 1px solid none;
+    border-radius: 12px;
+    color: rgb(30, 97, 156);
+    text-decoration: none;
+}
+
+
+.navbar ul li:hover {
+    background-color: beige;
+    color: rgb(22, 51, 27);
+}
+
+.search_box {
+    padding: 10px 100px;
+    border-radius: 0px;
+    float: right;
+}
+
+.search_box input {
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #919090;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  position: relative;
+}
+    </style>
+</head>
+<body class="pk">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about me.html">ABOUT ME</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="HIRE ME.html">HIRE ME</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <div class="search_box"><input type="text"></div>
+            </ul>
+            
+        </nav>
+        
+
+<p style="text-align: center; font-size: 30px;color: rgb(0, 0, 0);">Contact Form</p>
+<table border="0" style="height: 90px; width: 800px; margin-left: auto; margin-right: auto; border-radius: 30px;">
+  <tr>
+    <td style="background-color: #919090;">
+      <ul style="list-style: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(0, 0, 0); font-size: 30px;">
+        <li>Full Name: Anuj Pratap Singh</li>
+        <li>Phone:+917007038091</li>
+        <li>Email:anuj24pratap@gmail.com</li>
+        <li>Website:</li>
+        <li>pinterest:</li>
+        <li>Linkedin:</li>
+        <li>Telegram:</li>
+        <li>Address:House no-148 Bansaramou Nera Kannauj</li>
+    </ul>
+    </td>
+
+    <td>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="cyc">Choose your country</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="india">India</option>
+      <option value="japan">Japan</option>
+      <option value="russia">Russia</option>
+      <option value="uk">United Kingdom</option>
+      <option value="usa">USA</option>
+      <option value="ao">-Any other-</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+
+        <footer>
+            <p>Author: ANUJ PRATAP SINGJH<br>@COPYRIGHT:-ALL RIGHT RESERVED</p>
+            
+          </footer>
+</body>
+</html>      

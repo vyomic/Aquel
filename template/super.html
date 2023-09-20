@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.content ul {
+    list-style: none;
+    overflow: auto;
+    padding: 12px 0px;
+}
+
+.content ul li {
+    margin: 0px 15px;
+    float: left;
+    padding: 10px 4px;
+    font-size: 26px;
+    border: 1px solid none;
+    border-radius: 12px;
+    color: aliceblue;
+}
+.content ul li a {
+    /* margin: 0px 15px; */
+    float: left;
+    /* padding: 10px 4px; */
+    font-size: 26px;
+    border: 1px solid none;
+    border-radius: 12px;
+    color: rgb(30, 97, 156);
+    text-decoration: none;
+}
+
+
+.content ul li:hover {
+    background-color: beige;
+    color: rgb(22, 51, 27);
+}
+
+.search_box {
+    padding: 10px 100px;
+    border-radius: 0px;
+    float: right;
+}
+
+.search_box input {
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="abcd.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<div class="content">
+  <img src="logo90-removebg-preview.png" alt="" style="height: 150px; width: 300px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ul>
+      
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about me.html">ABOUT ME</a></li>
+        <li><a href="skills.html">SKILLS</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="HIRE ME.html">HIRE ME</a></li>
+        <li><a href="contact us.html">CONTACT US</a></li>
+        
+    </ul>
+</div>
+<!--  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+  -->
+</body>
+</html>
